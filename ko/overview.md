@@ -18,7 +18,7 @@
 
 ## 서비스 처리 절차
 
-![서비스 처리 절차](http://static.toastoven.net/prod_instance/instance_p_migration_ko_3.png)
+![서비스 처리 절차](http://static.toastoven.net/prod_datatransporter/data-transporter-process.png)
 
 ### 1. 서비스 이용 신청
 
