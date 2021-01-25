@@ -1,44 +1,44 @@
-## Storage > Data Transporter > 개요
+## Storage > Data Transporter > Overview
 
-고객의 데이터를 안전하게 외부 클라우드로 이전하거나, 외부 클라우드의 데이터를 TOAST로 안전하게 이전할 수 있도록 다양한 방법을 지원합니다.
+Supports a variety of ways to safely migrate client data to an external cloud or to safely migrate the data from external cloud to TOAST.
 
-주요 기능
+Key features
 
-* 고객의 환경에 맞는 맞춤 이전 방법을 제공합니다.
-* 데이터를 외부 클라우드 서비스로 안전하게 이전할 수 있습니다.
-* 외부 클라우드 서비스의 데이터를 TOAST로 안전하게 이전할 수 있습니다(추후 지원).
-* 네트워크와 대용량 이동식 저장 장치를 이용하여 데이터를 안전하게 이전할 수 있습니다(현재는 네트워크만 지원).
-* 필요에 따라 NHN의 클라우드 엔지니어의 기술 지원을 받아서 데이터를 이전할 수 있습니다(별도 요금 부과).
+* Provides custom migration modes that fit the environment of clients.
+* Data can be safely migrated to an external cloud.
+* The data can be TOAST migrated from an external cloud to TOAST (to be supported later).
+* Data can be safely migrated using networks and mobile mass storage devices (currently supports only networks).
+* When necessary, data can be migrated with the technical support of NHN's cloud (Separate fee is charged).
 
-서비스 대상
+Service target
 
-* TOAST를 이용하다가 외부 클라우드 서비스를 이용하려는 경우
-* 외부 클라우드 서비스를 이용하다가 TOAST를 이용하려는 경우(추후지원)
-* 대용량의 데이터를 안전하게 이전하려는 경우
+* To switch from TOAST to an external cloud service
+* To switch from an external cloud service to TOAST (will be supported in the future)
+* To safely migrate large data
 
-## 서비스 처리 절차
+## Service process procedure
 
-![서비스 처리 절차](http://static.toastoven.net/prod_datatransporter/data-transporter-process.png)
+![Service Process Procedure](http://static.toastoven.net/prod_datatransporter/data-transporter-process.png)
 
-### 1. 서비스 이용 신청
+### 1. Sign up for service
 
-서비스 신청 페이지의 **문의 내용**에 아래 내용을 포함하여 작성합니다.
+Fill the **Query** form in the Sign up for Service page, including the items below:
 
-* 이전 대상 프로젝트
-* 이전 담당자 성함과 연락처
-* NHN 기술 지원 서비스 요청 여부(별도 요금)
+* Projects to migrate
+* Name and contact information of the person in charge of migration
+* Whether the client requested NHN's technical support service (separately charged)
 
-### 2. 신청 내용 접수
+### 2. Submit service registration
 
-### 3. 고객 환경에 맞는 네트워크 연결 방식 결정
-* NHN이 제공하는 네트워크 환경에 맞는 방식을 NHN에서 제안
+### 3. Determine the network connection most appropriate for the client's environment
+* NHN suggests the method optimal in the network environments provided by the company
 
-### 4. VPN 구성 작업
+### 4. Configure VPN
 
-### 5. 제공된 VPN 네트워크로 데이터 이전
-* 고객이 제공된 VPN 네트워크를 통해서 데이터 이전 작업을 진행
-* NHN 기술 지원 서비스를 요청한 경우 NHN 엔지니어와 함께 이전 작업을 진행
+### 5. Migrate data using the provided VPN network
+* Clients proceeds with data migration using the provided VPN network
+* NHN's engineers assist the migration process if the company requests the tech support
 
-### 6. 이전 완료 확인 및 VPN 해제
-* 이전 담당자와 협의하에 이전이 완료되면 구성된 VPN을 해제
+### 6. Complete migration and disconnect VPN
+* Disconnects the configured VPN when the migration is complete after consulting with the person in charge of the migration
 
